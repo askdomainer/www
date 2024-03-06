@@ -12,11 +12,6 @@ Globalne oświadczenie w research-u i wdrażaniu nowatorskich rozwiązań pozwal
 + [Tom Sapletta, Github](https://github.com/tom-sapletta-com)
 + [Softreck - Leadership Through Software Development](https://softreck.com/)
 
-### Usługi
-
-+ [Pomoc askDomainer: 15 minut konstacji, subskrypcja na 5h pomocy w ciągu roku](https://oferta.askdomainer.com/)
-+ [100 najczęstszych technicznyh problemów z domenami internetowymi - 100.askdomainer.com](http://100.askdomainer.com)
-
 
 ### Raporty:
 
@@ -24,9 +19,21 @@ Globalne oświadczenie w research-u i wdrażaniu nowatorskich rozwiązań pozwal
 + [Detekcja obiektów w systemach wizyjnych - Raport 2024 - Jak zmieniał się rynek systemów wizyjnych w zastosowaniach przemysłowych w ostatniej dekadzie? Jak zmieni się rynek do roku 2030?](https://2024.teleoperator.info/)
 
 
+### Oferta
+
++ [Pomoc askDomainer: 15 minut konstacji, subskrypcja na 5h pomocy w ciągu roku](https://oferta.askdomainer.com/)
+
+Oferta dopasowana do małych firm w Polsce rozwiązujących [100 największych problemów w zarządzaniu domenami](http://100.askdomainer.com) - od rejestracji, przez ochronę prywatności, aż po wsparcie techniczne.
++ Jednorazowa pomocy w konsultacji online: 50PLN/kwadrans
++ Długotrwałała współpraca : 500PLN/rok
+  + wsparcie jako pogotowie domenowe
+  + subskrypcja na 5h pomocy w ciągu roku
+ 
++ [ >> Umów spotkanie](http://termin.askDomainer.com)
++ [ >> Zapytanie](http://contact.askDomainer.com)
++ [ >> Oferta](http://order.askDomainer.com)
++ [ >> Opłata](http://pay.askDomainer.com)
 
 ---
 
 + [edit](https://github.com/askdomainer/www/edit/main/README.md)
-
-https://askhacker.com/
