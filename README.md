@@ -23,7 +23,7 @@ Ułatwiam dopasowanie rozwiązania do potrzeb, zapraszam:
 
 ### Oferta
 
-+ [Pomoc askDomainer: 15 minut konstacji, subskrypcja na 5h pomocy w ciągu roku](https://oferta.askdomainer.com/)
++ [Pomoc askDomainer: 15 minut konsultacji, subskrypcja na 5h pomocy w ciągu roku](https://oferta.askdomainer.com/)
 
 Oferta dopasowana do małych firm w Polsce rozwiązujących [100 największych problemów w zarządzaniu domenami](http://100.askdomainer.com) - od rejestracji, przez ochronę prywatności, aż po wsparcie techniczne.
 + Jednorazowa pomocy w konsultacji online: 50PLN/kwadrans
