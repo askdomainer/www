@@ -5,8 +5,9 @@
 
 ## Tom Sapletta
 
-Na co dzień DevOps i ewangelista hipermodularyzacji, wsparcie techniczne dla startupów i specjalistów.
-Globalne oświadczenie w research-u i wdrażaniu nowatorskich rozwiązań pozwala na szybkie dopasowanie rozwiązania do szczególnych potrzeb, zapraszam:
+Na co dzień DevOps i ewangelista hipermodularyzacji, oferuję wsparcie techniczne dla startupów i specjalistów.
+Posiadam globalne doświadczenie w research-u i wdrażaniu nowatorskich, 
+Ułatwiam dopasowanie rozwiązania do potrzeb, zapraszam:
 
 + [Tom Sapletta, Linkedin](https://www.linkedin.com/in/tom-sapletta-com)
 + [Tom Sapletta, Github](https://github.com/tom-sapletta-com)
