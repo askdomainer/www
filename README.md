@@ -16,6 +16,7 @@ Ułatwiam dopasowanie rozwiązania do potrzeb, zapraszam:
 
 ### Raporty:
 
++ [Raport rynku domen, 2024.digitname.com - Jak zmieniał się rynek domen w ostatniej dekadzie? Jak zmieni się rynek do roku 2030?](https://2024.digitname.com/)
 + [Rynek pracy w EU okiem Polaka - Raport 2024 - Jak zmieniał się rynek pracy w ostatniej dekadzie? Jak zmieni się rynek do roku 2030?](https://2024.teleworking.info/)
 + [Detekcja obiektów w systemach wizyjnych - Raport 2024 - Jak zmieniał się rynek systemów wizyjnych w zastosowaniach przemysłowych w ostatniej dekadzie? Jak zmieni się rynek do roku 2030?](https://2024.teleoperator.info/)
 
