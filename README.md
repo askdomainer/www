@@ -73,7 +73,7 @@ Ułatwiam dopasowanie rozwiązania do potrzeb, zapraszam:
 
 ### Oferta
 
-+ [Pomoc askDomainer: 15 minut konsultacji, subskrypcja na 5h pomocy w ciągu roku](https://oferta.askdomainer.com/PL)
++ [Pomoc askDomainer: 15 minut konsultacji, subskrypcja na 5h pomocy w ciągu roku](https://offer.askdomainer.com/PL)
 
 Oferta dopasowana do małych firm w Polsce rozwiązujących [100 największych problemów w zarządzaniu domenami](http://100.askdomainer.com) - od rejestracji, przez ochronę prywatności, aż po wsparcie techniczne.
 + Jednorazowa pomocy w konsultacji online: 50PLN/kwadrans
@@ -89,6 +89,25 @@ Oferta dopasowana do małych firm w Polsce rozwiązujących [100 największych p
 
 [ >> Opłata](http://pay.askDomainer.com)
 
+
+
+## Raporty
+
++ [Raport rynku domen, 2024.digitname.com - Jak zmieniał się rynek domen w ostatniej dekadzie? Jak zmieni się rynek do roku 2030?](https://2024.digitname.com/)
+
+## Portfolio
+
++ [domainLeak.com](https://www.domainleak.com/)
+
+## Usługi
+   
+
+## informacje o domenach
+
++ [Numery telefonów i domeny internetowe](NUMERY.md)
++ [100 najczęstszych technicznyh problemów z domenami internetowymi](http://100.askdomainer.com/PL)
+
+  
 ---
 
 + [edit](https://github.com/askdomainer/www/edit/main/README.md)
