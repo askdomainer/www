@@ -19,16 +19,21 @@ jobs:
         python-version: '3.12'
 
     - name: Create virtual environment
-      run: python3 -m venv /github/workspace/venv
+      run: python3 -m venv /home/runner/work/www/www/venv
 
     - name: Activate virtual environment
-      run: source /github/workspace/venv/bin/activate
+      run: source /home/runner/work/www/www/venv/bin/activate
 
     - name: Install dependencies
       run: pip install -r requirements.txt
 
-    - name: Build Jekyll site
-      uses: actions/jekyll-build-pages@v1
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
       with:
-        source: .
-        destination: ./_site
+        ruby-version: '3.0'
+
+    - name: Install Ruby dependencies
+      run: bundle install
+
+    - name: Build Jekyll site
+      run: bundle exec jekyll build
