@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>askDomainer.com - Domain & SaaS Solutions for SMBs</title>
+
+    <meta name="description"
+          content="askDomainer.com - Expert domain and SaaS solutions for small and medium businesses">
+    <meta name="keywords" content="domain, SaaS, business, SMB, domain management">
+    <meta name="author" content="Tom Sapletta">
+
+
     <script>
         // Simple language detection and redirect
-        (function() {
+        (function () {
             var userLang = navigator.language || navigator.userLanguage;
             if (userLang.startsWith('pl')) {
                 window.location.href = '/pl/';
@@ -21,9 +28,11 @@
             text-align: center;
             padding: 50px;
         }
+
         .language-selector {
             margin-top: 30px;
         }
+
         .language-selector a {
             margin: 0 10px;
             padding: 10px 20px;
@@ -38,17 +47,38 @@
 </head>
 <body>
 
-    <h1>Welcome to askDomainer.com</h1>
-    <p>Please select your preferred language:</p>
-    <div class="language-selector">
-        <a href="/en/">English</a>
-        <a href="/pl/">Polski</a>
-    </div>
+<h1>Welcome to askDomainer.com</h1>
+<p>Please select your preferred language:</p>
+<div class="language-selector">
+    <a href="/en/">English</a>
+    <a href="/pl/">Polski</a>
+</div>
 
-    <script src="/assets/js/i18next.min.js"></script>
-    <script src="/assets/js/translations-en.js"></script>
-    <script src="/assets/js/i18n.js"></script>
-    <script src="/assets/js/main.js"></script>
+<footer>
+    <div class="container">
+        <p>&copy; 2024 askDomainer.com. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="language-selector">
+            <select class="language-switcher" id="language-switcher">
+                <option value="en" selected>English</option>
+                <option value="pl">Polski</option>
+            </select>
+        </div>
+    </div>
+</footer>
+
+
+<script src="/assets/js/i18next.min.js"></script>
+<script src="/assets/js/translations-en.js"></script>
+<script src="/assets/js/i18n.js"></script>
+<script src="/assets/js/main.js"></script>
 
 </body>
 </html>
