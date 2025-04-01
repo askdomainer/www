@@ -1,3 +1,4 @@
+# Existing config remains unchanged
 title: "askDomainer.com"
 description: "Elevate Your Business with Expert Domain Acquisition, Sales, and Custom Software Development Tailored to Your Growth Journey."
 mermaid:
@@ -9,3 +10,24 @@ readme_index:
   enabled:          true
   remove_originals: false
   with_frontmatter: false
+
+# Add this section to exclude virtual environment directories
+exclude:
+  - venv
+  - .env
+  - .venv
+  - env
+  - ENV
+  - virtualenv
+  - .Python
+  - bin
+  - build
+  - develop-eggs
+  - dist
+  - downloads
+  - eggs
+  - lib
+  - lib64
+  - parts
+  - sdist
+  - var
