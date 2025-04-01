@@ -1,44 +1,12 @@
 #!/bin/bash
 # Usuń poprzednie pliki
-rm -rf *.egg-info
-rm -rf dist
-rm -rf build
 
 # publish.sh
 #!/bin/bash
-echo "Starting publication process..."
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-# Upewnij się że mamy najnowsze narzędzia
-pip install --upgrade pip build twine
-
-# Sprawdź czy jesteśmy w virtualenv
-if [ -z "$VIRTUAL_ENV" ]; then
-    echo "Aktywuj najpierw virtualenv!"
-    exit 1
-fi
-
-# Usuń stare buildy
-rm -rf dist/ build/ *.egg-info/
-
 
 # Zainstaluj w trybie edytowalnym
-pip install -e .
 python changelog.py
 bash git.sh
 bash publish.sh
-
-# Zbuduj paczkę
-echo "Building package..."
-python -m build
-
-# Sprawdź paczkę
-echo "Checking package..."
-twine check dist/*
-
-# Opublikuj na PyPI
-echo "Publishing to PyPI..."
-twine upload dist/*
 
 echo "Publication complete!"
