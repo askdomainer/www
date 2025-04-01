@@ -31,3 +31,6 @@ exclude:
   - parts
   - sdist
   - var
+  - .pytest_cache/
+  - Gemfile
+  - Gemfile.lock
