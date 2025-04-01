@@ -19,10 +19,10 @@ jobs:
         python-version: '3.12'
 
     - name: Create virtual environment
-      run: python3 -m venv /home/runner/work/www/www/venv
+      run: python3 -m venv ${{ runner.temp }}/venv
 
     - name: Activate virtual environment
-      run: source /home/runner/work/www/www/venv/bin/activate
+      run: source ${{ runner.temp }}/venv/bin/activate
 
     - name: Install dependencies
       run: pip install -r requirements.txt
