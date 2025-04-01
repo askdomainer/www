@@ -1,15 +1,24 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
-gemspec
 
-gem "faraday", "~> #{ENV["FARADAY_VERSION"]}" if ENV["FARADAY_VERSION"]
-gem "jekyll", "~> #{ENV["JEKYLL_VERSION"]}" if ENV["JEKYLL_VERSION"]
+# For GitHub Pages compatibility
+gem "github-pages", group: :jekyll_plugins
 
-group :test do
-  gem "webmock", "~> 3.14"
+# If you want specific Jekyll plugins, uncomment these:
+# group :jekyll_plugins do
+#   gem "jekyll-feed"
+#   gem "jekyll-seo-tag"
+# end
+
+# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
+# and associated library.
+platforms :mingw, :x64_mingw, :mswin, :jruby do
+  gem "tzinfo", "~> 1.2"
+  gem "tzinfo-data"
 end
 
-gem "webrick" if RUBY_VERSION.to_i >= 3
-gem "jekyll-github-metadata"
-gem "jekyll-readme-index"
+# Performance-booster for watching directories on Windows
+gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+
+# Lock `http_parser.rb` gem to `v0.6.0` on JRuby builds since newer versions of the gem
+# do not have a Java counterpart.
+gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
