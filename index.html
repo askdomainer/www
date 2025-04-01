@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>askDomainer.com - Domain & SaaS Solutions for SMBs</title>
+    <script>
+        // Simple language detection and redirect
+        (function() {
+            var userLang = navigator.language || navigator.userLanguage;
+            if (userLang.startsWith('pl')) {
+                window.location.href = '/pl/';
+            } else {
+                window.location.href = '/en/';
+            }
+        })();
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        .language-selector {
+            margin-top: 30px;
+        }
+        .language-selector a {
+            margin: 0 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            background-color: #0056b3;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to askDomainer.com</h1>
+    <p>Please select your preferred language:</p>
+    <div class="language-selector">
+        <a href="/en/">English</a>
+        <a href="/pl/">Polski</a>
+    </div>
+</body>
+</html>

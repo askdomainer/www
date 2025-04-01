@@ -2,6 +2,13 @@
 
 The road to building and maintaining a successful small or medium business (SMB) in today's ever-evolving digital landscape is no easy feat. That's precisely where our expertise dovetails with your ambitions. Imagine having a domain that not only encapsulates your brand essence but also provides a robust, intuitive SaaS platform designed to scale your business efficiently. This isn't just about going digital; it's about leading in your domain (pun intended).
 
+# askDomainer.com Website
+
+This repository contains the source code for the askDomainer.com website - a business offering domain solutions and SaaS for small and medium enterprises.
+
+## Project Structure
+
+The website is built with HTML, CSS, and JavaScript, featuring multilingual support (English and Polish).
 
 ## Why Us?
 
