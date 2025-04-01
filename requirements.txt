@@ -1,2 +1,2 @@
-requests==2.31.0
-pyyaml==6.0.1 --prefer-binary
+# Empty requirements file
+# This file exists to satisfy GitHub Actions workflow steps
