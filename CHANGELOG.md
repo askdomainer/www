@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.6] - 2025-04-01
+
+### Added
+- Changes in .github/workflows/jekyll.yml
+
 ## [0.1.5] - 2025-04-01
 
 ## [0.1.4] - 2025-04-01
