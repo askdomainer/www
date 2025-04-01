@@ -13,19 +13,22 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
+    - name: Set up Python
+      uses: actions/setup-python@v2
       with:
-        ruby-version: '3.0'
+        python-version: '3.12'
+
+    - name: Create virtual environment
+      run: python3 -m venv /github/workspace/venv
+
+    - name: Activate virtual environment
+      run: source /github/workspace/venv/bin/activate
 
     - name: Install dependencies
-      run: bundle install
+      run: pip install -r requirements.txt
 
     - name: Build Jekyll site
-      run: bundle exec jekyll build
-
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: actions/jekyll-build-pages@v1
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
+        source: .
+        destination: ./_site
