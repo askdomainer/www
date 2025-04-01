@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.3] - 2025-04-01
+
+### Added
+- Changes in Gemfile
+- Changes in _config.yml
+- Changes in mermaid.js
+
 ## [0.1.2] - 2025-04-01
 
 ## [0.1.1] - 2025-04-01
